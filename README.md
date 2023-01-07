@@ -4,7 +4,7 @@ Access Control Types
 
 
 **Access Control**
-
+```
 struct AccessControl {
     private var number: String
     
@@ -18,3 +18,4 @@ struct AccessControl {
 }
 let object1 = AccessControl(number: "12")
 object1.publicFunc()
+```
